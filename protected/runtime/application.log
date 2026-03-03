@@ -1,0 +1,28 @@
+2026/03/03 21:54:12 [error] [php] Non-canonical cast (double) is deprecated, use the (float) cast instead (/Users/bazaranol/Desktop/project/yii-1.1.28/framework/web/CHttpRequest.php:975)
+Stack trace:
+#0 /Users/bazaranol/Desktop/project/yii-1.1.28/framework/YiiBase.php(437): include()
+#1 /Users/bazaranol/Desktop/project/yii-1.1.28/framework/YiiBase.php(310): autoload()
+#2 /Users/bazaranol/Desktop/project/yii-1.1.28/framework/YiiBase.php(204): import()
+#3 /Users/bazaranol/Desktop/project/yii-1.1.28/framework/base/CModule.php(393): createComponent()
+#4 /Users/bazaranol/Desktop/project/yii-1.1.28/framework/base/CApplication.php(522): CWebApplication->getComponent()
+#5 /Users/bazaranol/Desktop/project/yii-1.1.28/framework/web/CWebApplication.php(545): CWebApplication->getRequest()
+#6 /Users/bazaranol/Desktop/project/yii-1.1.28/framework/base/CApplication.php(170): CWebApplication->init()
+#7 /Users/bazaranol/Desktop/project/yii-1.1.28/framework/YiiBase.php(132): CWebApplication->__construct()
+#8 /Users/bazaranol/Desktop/project/yii-1.1.28/framework/YiiBase.php(105): createApplication()
+#9 /Users/bazaranol/Desktop/project/book-catalog/index.php(13): createWebApplication()
+REQUEST_URI=/
+in /Users/bazaranol/Desktop/project/book-catalog/index.php (13)
+2026/03/03 21:58:22 [error] [php] Non-canonical cast (double) is deprecated, use the (float) cast instead (/Users/bazaranol/Desktop/project/yii-1.1.28/framework/web/CHttpRequest.php:977)
+Stack trace:
+#0 /Users/bazaranol/Desktop/project/yii-1.1.28/framework/YiiBase.php(437): include()
+#1 /Users/bazaranol/Desktop/project/yii-1.1.28/framework/YiiBase.php(310): autoload()
+#2 /Users/bazaranol/Desktop/project/yii-1.1.28/framework/YiiBase.php(204): import()
+#3 /Users/bazaranol/Desktop/project/yii-1.1.28/framework/base/CModule.php(393): createComponent()
+#4 /Users/bazaranol/Desktop/project/yii-1.1.28/framework/base/CApplication.php(522): CWebApplication->getComponent()
+#5 /Users/bazaranol/Desktop/project/yii-1.1.28/framework/web/CWebApplication.php(545): CWebApplication->getRequest()
+#6 /Users/bazaranol/Desktop/project/yii-1.1.28/framework/base/CApplication.php(170): CWebApplication->init()
+#7 /Users/bazaranol/Desktop/project/yii-1.1.28/framework/YiiBase.php(132): CWebApplication->__construct()
+#8 /Users/bazaranol/Desktop/project/yii-1.1.28/framework/YiiBase.php(105): createApplication()
+#9 /Users/bazaranol/Desktop/project/book-catalog/index.php(13): createWebApplication()
+REQUEST_URI=/
+in /Users/bazaranol/Desktop/project/book-catalog/index.php (13)
